@@ -126,6 +126,47 @@ pnpm-debug.log*
 *.bundle.js
 *.chunk.js
 
+# Android
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+build/
+.gradle/
+local.properties
+*.keystore
+!debug.keystore
+
+# Android Studio
+.idea/
+.gradle/
+local.properties
+*.iml
+*.hprof
+.cxx/
+*.swp
+
+# Android Build
+/debug/
+/release/
+.apk/
+*.aab
+
+# Android NDK
+obj/
+.ndkBuild/
+
+# Android Emulator
+.avd/
+*.avd
+*.ini
+
+# Android Profiling
+*.hprof
+
 # NetBeans
 /nbproject/private/
 /nbbuild/
