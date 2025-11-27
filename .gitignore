@@ -75,6 +75,57 @@ classes/
 .settings/
 bin/
 
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Vue/React build
+dist/
+build/
+.output/
+
+# Package managers
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Vite
+.vite/
+
+# Nuxt.js
+.nuxt/
+.nitro/
+
+# Cache
+.cache/
+.temp/
+.tmp/
+
+# Frontend dependencies coverage
+coverage/
+.nyc_output/
+
+# Storybook build outputs
+storybook-static/
+
+# Vue CLI
+.env.local
+.env.*.local
+
+# Package managers logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Frontend bundles
+*.bundle.js
+*.chunk.js
+
 # NetBeans
 /nbproject/private/
 /nbbuild/
